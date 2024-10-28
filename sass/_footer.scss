@@ -1,0 +1,27 @@
+.footer {
+    background-color: $footer-bg;
+    color: $text-light;
+    padding: $spacer;
+  
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  
+    .footer-links {
+      list-style: none;
+      display: flex;
+      gap: $spacer-sm;
+  
+      a {
+        color: $text-light;
+        text-decoration: none;
+        &:hover {
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+  

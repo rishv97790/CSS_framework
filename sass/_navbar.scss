@@ -1,0 +1,40 @@
+.navbar {
+    background-color: $primary-color;
+    padding: $spacer;
+  
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .navbar-brand {
+      color: white;
+      font-size: $font-size-lg;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  
+    .navbar-links {
+      display: flex;
+      gap: $spacer;
+  
+      a {
+        color: white;
+        text-decoration: none;
+        padding: $spacer-sm;
+        transition: color 0.3s ease;
+  
+        &:hover {
+          color: $secondary-color;
+        }
+      }
+    }
+  
+    @media (max-width: 768px) {
+      .navbar-links {
+        flex-direction: column;
+      }
+    }
+  }
+  

@@ -1,0 +1,28 @@
+.hero {
+    background-color: $primary-color;
+    color: $text-light;
+    padding: 3rem 0;
+  
+    .container {
+      text-align: center;
+    }
+  
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: $spacer;
+    }
+  
+    p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+    }
+  
+    a.btn {
+      padding: 0.75rem 2rem;
+      background-color: $secondary-color;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  }
+  
